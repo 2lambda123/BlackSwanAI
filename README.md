@@ -1,16 +1,21 @@
-### Hi there 👋
+BlackSwan AI v1.0.0 - Proof of Concept Release
 
-<!--
-**blackswanai/BlackSwanAI** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A ChatGPT powered news trading tool. Prepare for potential bullish and bearish news occuring in  crypto markets by executing a leveraged futures trading instanteously upon the release of anticipated news. Enter your crtieria into the conditions.json file and run the main blackswan.py script to continuously scan news stories from a number of stories.
 
-Here are some ideas to get you started:
+A test instance can be found in the folder 'test_instance' to simulate a given news story being matched against criteria and ensure you are configuring the bot correctly.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Full instructions can be found on our website: blackswan.biz within our white paper.
+
+This is a long term project with plans to require native $BLACKSWAN token holdings for usage and train historical market data against news reports to allow trades to be made based on breaking news articles without any prior conditions being specified.
+
+
+REQUIREMENTS: 
+
+python 3.8
+
+Install with PIP:
+
+feedparser 6.0.10
+beautifulsoup4 4.8.2 
+openai 0.27.0
+Bybit 0.2.12
