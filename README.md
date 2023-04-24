@@ -6,7 +6,7 @@ A test instance can be found in the folder 'test_instance' to simulate a given n
 
 Full instructions can be found on our website: blackswan.biz within our white paper.
 
-This is a long term project with plans to require native $BLACKSWAN token holdings for usage and train historical market data against news reports to allow trades to be made based on breaking news articles without any prior conditions being specified.
+This is a long term project with plans to require native **$BLACKSWAN** token holdings for usage and train historical market data against news reports to allow trades to be made based on breaking news articles without any prior conditions being specified.
 
 
 **REQUIREMENTS:**
