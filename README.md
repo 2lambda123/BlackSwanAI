@@ -31,6 +31,8 @@ Bybit 0.2.12
 **Configuration steps:**
 
 Input API keys into config.py
+
 Input desired conditions, trading pairs and amounts into conditions.json
+
 Fund ByBit futures account with funds for an inverse trading pair (BTC, ETH, etc) - support for linear pairs with USD collateral coming in future updates. See roadmap/white paper for details
 
