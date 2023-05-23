@@ -1,3 +1,16 @@
+
+**BlackSwan AI v2.0.b - Phase 2 Release**
+
+**BlackSwan AI v1.0.0 - Proof of Concept Release**
+
+- added Windows compatible version
+- added support for linear and inverse trading pairs
+- added support for 3 additional exchanges (Kucoin, Binance and Bitmex)
+- added support for Take Profit/Stop Loss (TP/SL)
+- added Twitter monitoring, search for Tweets by username or search term
+- fixed bugs related to script crashing when API requests fail or OpenAI returned JSON is invalid.
+
+
 **BlackSwan AI v1.0.0 - Proof of Concept Release**
 
 A ChatGPT powered news trading tool. Prepare for potential bullish and bearish events occuring in  crypto markets by executing a leveraged futures trading instanteously upon the release of anticipated news, the OpenAI API reads the latest stories and determines if the condition has been met. Enter your crtieria into the conditions.json file and run the main blackswan.py script to continuously scan news stories from a number of stories.
@@ -11,11 +24,13 @@ This is a long term project with plans to require native **$BLACKSWAN** token ho
 
 **REQUIREMENTS:**
 
-python 3.8
+python 3.1.0
 
 OpenAI account with API key
 
-ByBit account with API key 
+ByBit/Binance/Bitmex/Kucoin account with API key 
+
+Git
 
 
 **Install with PIP:**
@@ -28,9 +43,10 @@ openai 0.27.0
 
 Bybit 0.2.12
 
+(use command 'pip install -r requirements.txt' in both the main folder and blackswan-master folder to install dependencies)
 **Configuration steps:**
 
-Input API keys into config.py
+Input API keys and searched search terms/user accounts into config.py
 
 Input desired conditions, trading pairs and amounts into conditions.json
 
