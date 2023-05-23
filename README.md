@@ -1,14 +1,14 @@
 
 **BlackSwan AI v2.0.b - Phase 2 Release**
 
-**BlackSwan AI v1.0.0 - Proof of Concept Release**
+We are proud to officially announce our Phase 2 release with the following major updates.
 
 - added Windows compatible version
 - added support for linear and inverse trading pairs
 - added support for 3 additional exchanges (Kucoin, Binance and Bitmex)
 - added support for Take Profit/Stop Loss (TP/SL)
 - added Twitter monitoring, search for Tweets by username or search term
-- fixed bugs related to script crashing when API requests fail or OpenAI returned JSON is invalid.
+- fixed bugs related to script exiting when API requests fail or OpenAI returned JSON is invalid.
 
 
 **BlackSwan AI v1.0.0 - Proof of Concept Release**
@@ -26,11 +26,13 @@ This is a long term project with plans to require native **$BLACKSWAN** token ho
 
 python 3.1.0
 
+pip
+
+Git
+
 OpenAI account with API key
 
 ByBit/Binance/Bitmex/Kucoin account with API key 
-
-Git
 
 
 **Install with PIP:**
