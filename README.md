@@ -1,4 +1,13 @@
 
+**BlackSwan AI v3.0 - Phase 3 Release**
+
+We are proud to officially announce our Phase 3 release with the following major updates.
+
+- revamped Twitter graphQL API to no longer require login and dramatically improve speed and almost completely eliminate rate limiting (from our tests)
+- added support for a custom Telegram alerts bot to be run in a private channel (you must create a new Telegram bot, add it to your channel, and input your API key and channel ID into the config.py file), gives alerts when new stories and Tweets are detected, posts a message whenever a trade is executed and pins it in your private channel to ensure it won't be missed.
+- improved error handling across all APIs
+- added the ability to filter Tweets scanned by search terms to verified accounts only 
+
 **BlackSwan AI v2.0.b - Phase 2 Release**
 
 We are proud to officially announce our Phase 2 release with the following major updates.
@@ -43,12 +52,16 @@ beautifulsoup4 4.8.2
 
 openai 0.27.0
 
-Bybit 0.2.12
+python-telegram-bot 13.15
+
+colorama 0.4.6
+
+openpyxl 3.1.2
 
 (use command 'pip install -r requirements.txt' in both the main folder and blackswan-master folder to install dependencies)
 **Configuration steps:**
 
-Input API keys and searched search terms/user accounts into config.py
+Input API keys, Telegram channel ID and search terms/user accounts into config.py
 
 Input desired conditions, trading pairs and amounts into conditions.json
 
