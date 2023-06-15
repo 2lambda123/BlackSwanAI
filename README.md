@@ -1,5 +1,4 @@
-**BlackSwan AI v3.0 - Phase 3 Release
-**
+**BlackSwan AI v3.0 - Phase 3 Release**
 
 We are proud to officially announce our Phase 3 release with the following major updates.
 
