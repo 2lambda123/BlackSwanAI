@@ -1,5 +1,6 @@
 **BlackSwan AI v3.0 - Phase 3 Release
 **
+
 We are proud to officially announce our Phase 3 release with the following major updates.
 
 revamped Twitter graphQL API to no longer require login and dramatically improve speed and almost completely eliminate rate limiting (from our tests)
@@ -7,8 +8,8 @@ added support for a custom Telegram alerts bot to be run in a private channel (y
 improved error handling across all APIs
 added the ability to filter Tweets scanned by search terms to verified accounts only
 
-**BlackSwan AI v2.0.b - Phase 2 Release
-**
+**BlackSwan AI v2.0.b - Phase 2 Release**
+
 We are proud to officially announce our Phase 2 release with the following major updates.
 
 added Windows compatible version
@@ -39,8 +40,8 @@ OpenAI account with API key
 
 ByBit/Binance/Bitmex/Kucoin account with API key
 
-**Install with PIP:
-**
+**Install with PIP:**
+
 feedparser 6.0.10
 
 beautifulsoup4 4.8.2
