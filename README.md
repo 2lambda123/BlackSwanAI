@@ -2,22 +2,23 @@
 
 We are proud to officially announce our Phase 3 release with the following major updates.
 
-revamped Twitter graphQL API to no longer require login and dramatically improve speed and almost completely eliminate rate limiting (from our tests)
-added support for a custom Telegram alerts bot to be run in a private channel (you must create a new Telegram bot, add it to your channel, and input your API key and channel ID into the config.py file), gives alerts when new stories and Tweets are detected, posts a message whenever a trade is executed and pins it in your private channel to ensure it won't be missed.
-improved error handling across all APIs
-added the ability to filter Tweets scanned by search terms to verified accounts only
+- revamped Twitter graphQL API to no longer require login and dramatically improve speed and almost completely eliminate rate limiting (from our tests)
+- added support for a custom Telegram alerts bot to be run in a private channel (you must create a new Telegram bot, add it to your channel, and input your API key and channel ID into the config.py file), gives alerts when new stories and Tweets are detected, posts a message whenever a trade is executed and pins it in your private channel to ensure it won't be missed.
+- improved error handling across all APIs
+- added the ability to filter Tweets scanned by search terms to verified accounts only
 
 **BlackSwan AI v2.0.b - Phase 2 Release**
 
 We are proud to officially announce our Phase 2 release with the following major updates.
 
-added Windows compatible version
-added support for linear and inverse trading pairs
-added support for 3 additional exchanges (Kucoin, Binance and Bitmex)
-added support for Take Profit/Stop Loss (TP/SL)
-added Twitter monitoring, search for Tweets by username or search term
-fixed bugs related to script exiting when API requests fail or OpenAI returned JSON is invalid.
-BlackSwan AI v1.0.0 - Proof of Concept Release
+- added Windows compatible version
+- added support for linear and inverse trading pairs
+- added support for 3 additional exchanges (Kucoin, Binance and Bitmex)
+- added support for Take Profit/Stop Loss (TP/SL)
+- added Twitter monitoring, search for Tweets by username or search term
+- fixed bugs related to script exiting when API requests fail or OpenAI returned JSON is invalid.
+
+**BlackSwan AI v1.0.0 - Proof of Concept Release**
 
 A ChatGPT powered news trading tool. Prepare for potential bullish and bearish events occuring in crypto markets by executing a leveraged futures trading instanteously upon the release of anticipated news, the OpenAI API reads the latest stories and determines if the condition has been met. Enter your crtieria into the conditions.json file and run the main blackswan.py script to continuously scan news stories from a number of stories.
 
